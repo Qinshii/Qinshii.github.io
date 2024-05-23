@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Dark Theme GitHub Page</title>
+    <title>Summary of Arknights Lore</title>
     <style>
         body {
             background-color: #121212;
@@ -37,7 +37,7 @@
         <h1>Welcome to My GitHub Page</h1>
     </header>
     <main>
-        <p>This is a simple GitHub page with a dark theme.</p>
+        <p>This page is simply a summary of my own take on Arknights lore.</p>
         <p>Feel free to explore my <a href="https://github.com/your-username">GitHub profile</a>.</p>
     </main>
 </body>
