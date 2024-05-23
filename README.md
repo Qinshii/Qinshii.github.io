@@ -3,42 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Summary of Arknights Lore</title>
-    <style>
-        body {
-            background-color: #121212;
-            color: #e0e0e0;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #1f1f1f;
-            padding: 1em;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        main {
-            padding: 1em;
-        }
-        a {
-            color: #bb86fc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Game Tags</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My GitHub Page</h1>
+        <h1>Game Tags Database</h1>
+        <input type="text" id="searchInput" onkeyup="searchTags()" placeholder="Search for tags..">
     </header>
     <main>
-        <p>This page is simply a summary of my own take on Arknights lore.</p>
-        <p>Feel free to explore my <a href="https://github.com/your-username">GitHub profile</a>.</p>
+        <ul id="tagsList">
+            <li><a href="#tag1">Tag1</a></li>
+            <li><a href="#tag2">Tag2</a></li>
+            <li><a href="#tag3">Tag3</a></li>
+            <!-- Add more tags as needed -->
+        </ul>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
